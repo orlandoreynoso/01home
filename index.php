@@ -34,7 +34,7 @@
 			<li><a href="#">Radio Online</a></li>
 			<li><a href="#">Contacto</a></li>
 			<li id="publicar_nav">
-				<a href="#">Lo que suena ahora</a>
+				<a href="#" class="icon-audifono">Lo que suena ahora</a>
 			</li>			
 		</ul>
 	</nav>
@@ -61,11 +61,11 @@
 					
 		</div>
 		<div class="votacion">
-		<a href="#" class="up"></a>
+		<a href="#" class="up icon-microfono"></a>
 		882
-		<a href="#" class="down"></a>				
-		<a href="#" class="comentario_item">3</a>
-		<a href="#" class="guardar_item"></a>	
+		<a href="#" class="down icon-musica"></a>				
+		<a href="#" class="comentario_item icon-audifono">3</a>
+		<a href="#" class="guardar_item icon-compartir"></a>	
 		</div>
 	</article>
 </section>
