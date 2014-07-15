@@ -43,6 +43,7 @@
 }
 .icon-audifono:before {
 	content: "\e602";
+	margin-right: 10px
 }
 .icon-compartir:before {
 	content: "\e603";
@@ -122,7 +123,9 @@ header #logo img
 }
 nav
 {
-	background: #80BCA3;
+	background: #1851CA;
+	box-shadow: rgba(0,0,0,0.5) 0px 0px 10px;
+	padding: 0 11em 0 0; 
 	position: relative;
 }
 nav ul
