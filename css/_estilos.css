@@ -1,0 +1,99 @@
+
+a{
+	color: #0066ff;
+}
+
+body{
+	background: #fdfdfd;
+	background-image:url(../img/repeticion.jpg);
+	font-size: 16px;
+}
+
+/*
+overflow hidden, es cuando todo esta flotando entonces para volverlo a la caja  lo usamos
+
+*/
+
+header{
+	background: #f1f1f1;
+	color: white;
+	padding: 0.5em;
+	overflow: hidden;
+	position: relative;
+}
+
+/*
+paddin: margen interno de la caja
+margin: margen externo de la caja
+*/
+
+header figure
+{
+	float: left;
+}
+
+/*===========
+el 1.2 se multiplica por el tamañ de fuente original
+16*1.2 = 19.2
+
+*/
+
+header h1{
+	font-size: 1.2em;
+	font-weight: normal;
+	border: 1px solid red;
+	margin: 0.2em 75px 0 0;
+}
+
+/* ===================================
+- Todo lo que es contenido va en html y todo lo que es diseño en css
+- Para ajustar la cajas a un misma linea 3 tecnicas
+1. inline-block
+2. float
+3. posiciones relativas y absolutas
+4.  Flotacion de objetos....
+======================================= */
+header  #avatar{
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 0.5em 0.5em 0 0;
+
+
+}
+
+header #avatar img{
+	border-radius:50%; 
+	width:100px
+}
+
+header #logo img{
+	border-right: 1px solid #0066ff;
+	padding-right: 0.5em;
+	margin-right:  0.5em;
+	width: 150px; /*Recalcula el Alto Css*/
+}
+
+
+
+nav{
+	background: #000;
+	padding-right: 0 0.5em;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li{
+	display: inline-block;
+	margin: 0 1em  0 0;
+}
+
+nav ul li a{
+	color: white;
+	display: block;
+	padding: 0.5em 0;
+}

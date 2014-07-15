@@ -1,0 +1,1819 @@
+@charset "utf-8";
+
+/* CSS 	METANOIARADIO.COM - by: orlandoreynoso.com */
+
+
+body {
+
+	background-color:#ffffff;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #333333;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	background-image:url(img/repeticion.jpg);
+	background-repeat:repeat-x;
+}
+
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+
+
+/*....... INICIA CUADRO QUE CONTIENE TODO EL 
+
+
+
+ HOME....*/
+
+#div-01{
+	width:100%;
+	background-image:url(img/repcabecera.jpg);
+	background-repeat:repeat-x;
+	height:175px;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+
+#cab1{
+	clear:both;
+	width:960px;
+	height:175px;
+	margin:0px auto 0px auto;
+	padding:0px 0px 0px 0px;
+	background-image:url(img/cabecera-celeste.jpg);
+	background-repeat:no-repeat;
+	
+}
+
+
+#logo {
+	width:291px;
+	height:158px;	
+	float:left;
+	display:block;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;	
+}
+
+#cuadro-menu-players{
+	height:158px;
+	width:640px;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	float:right;
+	
+}
+
+#cuadro-players{
+	clear:both;
+	width:640px;
+    height:128px;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+
+#players{
+	width:273px;
+	height:auto;
+	margin:4px 0px 0px 0px;
+	padding:4px 15px 8px 8px;
+	float:right;
+	display:block;
+}
+
+
+#titulo-escuchanos{
+	width:220px;
+	height:auto;
+	margin:14px 0px 0px 115px;
+	padding:4px 0px 6px 4px;
+	float:left;
+	display:block;	
+}
+
+/*........ INICIA CUADRO MENU .........*/
+#paraMenu{
+	clear:both;	
+	width:640px;
+	height:30px;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+
+
+
+#cuadro-menu{
+	width:auto;
+	margin:0px 0px 0px 10px;
+	padding:0px 0px 0px 0px;
+	float:right;
+}
+
+/*... CUADRO PARA EL MENU PRINCIPAL ........... */
+
+ #navimain{ 
+	width:auto;
+	height:30px; 
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	background-color:#ffffff;
+}
+
+/*....... CUADRO DEL MENU PRINCIPAL....... */
+
+ #navimain li { 
+	width:auto; 
+	float:right;
+	line-height :30px; 
+	position :relative; 
+}
+
+/*............ FONDO PARA LA NAVEGACION DEL MENU PRINCIPAL............*/
+
+ #navimain a { 
+	width :auto;
+	display:block;
+/*	border-right :1px solid #cc0000; */
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	font-size :12px; 
+	text-decoration :none; 
+	color :#ff0099;
+/*	background-image:url(img/estilo-menu.jpg);
+	background-position:right;
+	background-repeat:no-repeat; */
+}
+
+ #navimain a.menu-child:hover { 
+	color: #003366;
+}
+
+/*Current page Customisations*/
+ #navimain a.menu-current{ 
+	height :30px; 
+/*	background :url(img/menu-hover.jpg) repeat-x; */
+/*	background-color:#cc0000;  */
+	background-color:#ffcc33;
+}
+
+/* restyle first menu item by C.081*/
+ #navimain a.menu-first.navlev1 {	
+	width:60px; 
+	height:30px;
+}
+
+ #navimain a.menu-first.navlev1:hover{ 
+/*	background: url("img/menu-first-h.png") no-repeat 0 0; */
+	width:60px; 
+	height:30px;
+	color:#00cc66;	
+}
+	
+ #navimain a.menu-first.navlev1.menu-current { 
+/*	background: url("img/menu-first-h.png") no-repeat 0 0; */
+	width: 60px; 
+	height: 30px; 
+}
+
+     #navimain a.menu-expand:hover { color: #003366; 	 }
+     #navimain a.menu-sibling:hover { color: #003366;  }
+
+/*.......  CAMBIA DE COLOR CUANDO SE PASA SOBRE EL MENU PRINCIPAL ....... 01.......*/
+
+     #navimain a:hover { color: #003366;  }
+	
+/* Positioning the Pop-out Drops */
+     #navimain li:hover { position :relative; z-index :10000; white-space :normal; 
+   /* required to resolve IE7 :hover bug (z-index above is ignored if this is not present)
+	see http://www.tanfa.co.uk/css/articles/pure-css-popups-bug.asp for other stuff that work */
+   /* required to resolve IE7 :hover bug (z-index above is ignored if this is not present)
+	see http://www.tanfa.co.uk/css/articles/pure-css-popups-bug.asp for other stuff that work */ 
+	
+}
+
+/*.............................................01 ........................................*/
+
+     #navimain ul { list-style-type :none; position :relative; /* Fix the Stupid IE6 Bug */ z-index :1000; }
+/* Root Level Link Formatting */
+
+/*............... FONDO BACK DEL MENU PRINCIPAL ..................*/
+
+     #navimain ul li { float: left; }
+	
+/*.............		COLOR DE LETRA PARA EL MENU PRINCIPAL  ...............*/
+
+     #navimain ul li a {
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		letter-spacing:1px; 
+		display :block; 
+		padding :0px 8px 0px 8px; 
+		color :#000000; 
+		text-decoration :none; 
+/*		border-right :1px solid #cccccc;  */
+		font-size:14px;
+/*		font-size :1.3em; */
+/*		font-weight:bold;*/
+/*		background-color:#000000;*/
+/*		background-color:#996600;	... FONDO SIN IMAGEN  PARA EL MENU Y SUBMENU .....*/
+
+/*.... FONDO CON IMAGEN PARA EL MENU PRINCIPAL .......*/
+/*		background-image:url(img/03menucopia.jpg);
+		background-repeat:no-repeat; */
+/*		background-color:#ccffff;*/
+
+/* background:url(img/estilo.jpg);
+		background-position:right;
+		background-color:#ffffff;
+		background-repeat:no-repeat;  */
+}
+
+/* Root Level link hover */
+
+
+     #navimain ul li a:hover,
+     #navimain ul li a:focus,
+     #navimain ul li a:active,
+     #navimain ul li a.active { 
+/*  TEXTO Y FONDO DEL MENU PRINCIPAL CAMBIAN CUANDO SE PASA ENCIMA ............	 */
+		background :url(img/menu-hover.png) repeat-x; 
+		color :#000000;
+		font-weight:bold;
+		text-decoration:none;
+
+}
+	
+ #navimain ul ul ul { 
+	position: absolute; 
+	top: 1px; 
+	left: 100%; 
+}
+
+/*.... AQUI EL TOP ME SIVE PARA TOPAR EL CUADRO DEL SUBMENU AL MENU PRINCIPAL.............*/
+
+ #navimain .menu li ul { 
+	position :absolute; 
+	left :0; 
+	z-index :-100; 
+	top :31px; 
+	margin-top :-1px; 
+	height :auto;
+	padding:0px 0px 10px 0px;
+	display :none;
+	width:auto;
+/*	width :212px; */
+	background :none; 
+	clear :both; 
+/*	background-color:#996600;	... FONDO PARA EL CUADRO PRINCIPAL DEL SUBMENU .............*/	 	
+}
+
+ #navimain .menu li ul a.menu-parent {
+	color :#993366; 
+}
+
+/* Child link hover*/
+ #navimain .menu li ul a:hover,
+ #navimain .menu li ul a.menu-current { 
+	color: #3399ff; 
+
+/*	 background-color:#996600;   .... CAMBIA DE FONDO CUANDO SE PASA SOBRE CADA SUBMENU........*/
+
+}
+
+/*.... LINK UTILIZADO ACTUALMENTE  ................*/
+
+#navimain .menu-current {
+	height: 30px;
+	background:url(img/currentelink.jpg) repeat-x; 
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	color:#F99;
+}
+
+#navimain .menu-current a { 
+	color:#ffffff;
+/*	text-decoration:underline; */
+	font-weight:bold;
+}
+
+
+/*............. AQUI EMPIEZA EL SUBMENU.................*/
+
+ #navimain li li { 
+	float :none; 
+	height :auto;
+	width:165px;
+/*	width :200px;  */
+	line-height :20px !important; 
+	border-left :1px solid #cccccc; 
+	border-right :1px solid #cccccc; 
+/*	border-bottom:none;
+	border-top:none; */
+	background :#0065ff;   /*.. AQUI ESTA EL FONDO PRINCIPAL DEL SUBMENU.........*/
+	
+}
+
+ #navimain li li a { 
+	float :none; 
+/*	font-weight:bold;*/
+	font-size :1em;
+/*	font-family: "Myriad Pro Cond" , Arial, Helvetica, sans-serif;	*/
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#ffffff;
+/*	background-color:#996600;	.. AQUI TAMBIEN SE LE PUEDE PONER FONDO AL PRINCIPAL DEL SUBMENU.........*/
+	height :auto; 
+	border-bottom :1px solid #ffffff; 
+	padding :6px 4px 6px 14px; 
+	border-right :none; 
+	background:none;	/*.. SE LE PONE NONE PARA QUE EL ESTILO DE ARRIBA PUEDA PONERLE FONDO AL SUBMENU 
+							Y NO SE ALTERE CON LA IMAGEN DEL MENU PRINCIPAL*/
+}
+
+	
+/*................... FONDO EN HOVER DEL SUBMENU ...............*/
+ #navimain li li a:hover { 
+	color :#000000 !important; 
+	background :url(img/list1.gif) #2679ff no-repeat 4px 50%;
+/*	font-weight:bold; */
+	/*	background-color:#993366;*/	
+}
+
+ #navimain li li.bottom { 
+/*	background :url(img/bottom-dropdown.png) no-repeat; */
+	width :202px; 
+	height :8px; 
+	border :none; /*.. AQUI NO SE PARA QUE FUNCIONA NO LE VEO FUNCIONALIDAD  .....*/
+}
+
+
+ #navimain li li a.menu-current {  /*... ESTA PUESTO EL LIST GIF PERO NO LO VEO....*/
+/*	background :url(img/list1.gif) #bbbbbb no-repeat 4px 50%; 
+	color:#ffffff; 	   */
+	height :auto;
+	color:#ffffff;
+}
+
+ #navimain .menu li ul ul { 
+	display:none;
+
+
+}
+
+ #navimain .menu li:hover ul ul,
+ .menu li.subMenu ul ul { 
+	display:none;
+}
+
+/* Show and hide */
+
+ #navimain .menu li:hover ul, 
+ .menu li a:focus ul, 
+ .menu li.subMenu ul {   /*... AQUI ES EL BORDE DEL MENU FINAL DEL SUBMENU */
+	display: block; 
+
+}
+
+ #navimain .menu li:hover ul, 
+ #navimain .menu li li:hover ul, 
+ #navimain .menu li.subMenu ul, 
+ #navimain.menu li li.subMenu ul { /*... AQUI TABMEIN ES EL BORDE DEL MENU FINAL DEL SUBMENU */
+	display: block; 
+	z-index: 1000;
+}
+
+ #navimain .menu-last {   /*... FONDO Y NO LETRA DEL MENUFINAL DEL MENU PRINCIPAL Y DEL SUBMENU */
+ /*	border-right: none;  */
+}
+
+ #navimain .menu-last a { /*... FONDO Y LETRA DEL MENUFINAL DEL MENU PRINCIPAL Y DEL SUBMENU */
+	border-right: none; 
+}
+	
+ #navimain .menu-parent { /*.. FONDO EN EL MUNU PRINCIPAL AL ESTAR EN UN ELEMENTO DEL SUBMENU..... */
+/*		background :url(img/menu-hover.jpg) repeat-x; */
+		color :#ffffff; 
+/*		background-color:#996633; ... ESTO SIRVE CUANDO UN SUBMENU ES SELECCIONADO Y QUEDA EN ESTE COLOR 
+EL MENU PRINCIPAL..............*/
+}
+
+
+/*.........................*/
+
+#mt01{
+	clear:both;
+	width:100%;
+	height:370px;
+	margin:0px auto 0px auto;
+	padding:0px 0px 0px 0px;
+}
+
+
+#cuadro-flash-vivo{
+	clear:both;
+	width:960px;
+	height:370px;
+	margin:0px auto 0px auto;
+	padding:0px 0px 0px 0px;
+	background-color:#ffffff;
+}
+
+#cuadro100{
+	width:279px;
+    float:left;
+	height:370px;
+	background-color:#ffffff;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	
+}
+
+#cuadro-vivo{
+	width:249px;
+    height:200px;
+	margin:5px 0px 0px 0px;
+	padding:10px 15px 0px 8px;
+}
+
+
+
+/*.........................................*/
+
+
+
+#slide-flash{
+	width:631px;
+	height:324px;
+	float:right;
+	margin:0px 0px 0px 0px;
+	padding:12px 12px 0px 12px;
+	display:block;
+}
+
+p.clr, .clr { clear:both; padding:0; margin:0; background:none;}
+
+
+/* Slider */
+
+
+
+#slider02 {  width:629px; height:324px; padding:12px 12px 0px 12px; background-color:#ffffff; margin:0px 0px 0px 0px;  border:1px solid #ecedef;}
+
+
+
+#slider2 {  width:628px; padding:0px 0px 0px 0px; margin:0px 0px 0px 0px; border:1px solid #efefef;}
+
+
+
+#slideshow { 
+
+
+
+	margin:0px 0px 0px 0px; 
+
+
+
+	width:628px;  
+
+
+
+	height:271px; 
+
+
+
+	background-color:#ffffff;
+
+
+
+}
+
+
+
+.slider-item { height:271px; margin:0px auto 0px auto; padding:0;}
+
+
+
+.slider_content_inner img { border: none; margin:0 auto;}
+
+
+
+.controls-center { width:629px; margin:0px auto 0px auto; padding:0px 0px 0px 0px;}
+
+
+
+.controls-center h2 { width:350px; float:left; font: bold 14px Arial, Helvetica, sans-serif; color:#6d6d6d; padding:10px 0 0 4px; margin:0;}
+
+
+
+.controls-center h3 { text-align:right; font: normal 36px Arial, Helvetica, sans-serif; color:#111; padding:10px 20px 4px 0; margin:0;}
+
+
+
+.controls-center p {width:300px; float:left;  font: normal 12px Arial, Helvetica, sans-serif; color:#6d6d6d; padding:3px 0 0 4px; margin:0;}
+
+
+
+#slider_controls { float: right; margin:0px 0px 0px 0px;  width:90px;}
+
+
+
+#slider_controls ul { margin:0 auto; padding:0; width:74px;}
+
+
+
+#slider_controls ul li { background:none; margin: 0; padding: 0; list-style: none; }
+
+
+
+#slider_controls ul li { float: left; display: block; }
+
+
+
+#slider_controls ul li a { width: 10px; height: 10px; background:url(../../media/images/tabs_2.gif) no-repeat center center; display: block; float: left; padding:2px; margin:2px !important; margin:1px 1px; outline: none; }
+
+
+
+#slider_controls ul li a:focus { outline: none; }
+
+
+
+#slider_controls ul li a:hover,
+
+
+
+#slider_controls ul li a.activeSlide { background:url(../../media/images/tabs_1.gif) no-repeat center center; }
+
+
+#cuadro-contenido{
+	clear:both;
+	width:930px;
+	min-height:30px;
+	margin:0px auto 0px auto;
+	padding:0px 15px 0px 15px;
+	background-image:url(img/home-repetir-contenido.jpg);
+	background-repeat:repeat-y;
+	background-color:#ffffff;
+}
+
+#cuadro-problemas{
+	clear:both;
+	width:930px;
+	min-height:auto;
+	margin:0px auto 10px auto;
+	padding:10px 15px 10px 15px;
+	background-color:#ffffff;	
+
+}
+
+#contenido{
+	clear:both;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+
+
+/*..................................................*/
+
+
+#mt02{
+	clear:both;
+	width:100%;
+	min-height:578px;
+	background-repeat:repeat-x;
+	background-position:center;
+}
+
+
+#con-up{
+	clear:both;
+	margin:0px auto 0px auto;
+	padding:0px 0px 0px 0px;
+	background-image:url(img/fondo-con-up2.png);
+	width:960px;
+	height:67px;
+}
+
+
+
+
+#contenido-mt{
+	clear:both;
+	width:930px;
+	margin:0px auto 0px auto;
+	padding:0px 15px 0px 15px;
+	background-image:url(img/home-repetir-contenido.jpg);
+	background-repeat:repeat-y;
+
+}
+
+
+
+
+
+
+
+#div-somos{
+
+
+
+	width:270px;
+
+
+
+	min-height:150px;
+
+
+
+	margin:0px 0px 0px 0px;
+
+
+
+	padding:0px 10px 0px 5px;
+
+
+
+	float:left;
+
+
+
+	
+
+
+
+}
+
+
+
+
+
+
+
+#div-multimedia{
+	width:290px;
+	min-height:150px;
+	margin:0px 0px 0px 10px;
+	padding:0px 10px 0px 15px;
+	float:left;
+	border-left:1px dashed #cccccc;
+	border-right:1px dashed #cccccc;
+}
+
+
+
+
+
+#div-interes{
+	width:300px;
+	min-height:150px;
+	margin:0px 0px 0px 0px;
+	padding:0px 10px 0px 5px;
+	float:right;
+}
+
+
+#twitter-wid{
+	width:260px;
+	min-height:150px;
+	margin:0px 0px 0px 0px;
+	padding:4px 10px 4px 5px;
+}
+
+
+
+#div-linea{
+	border-bottom:1px dashed #cccccc;
+	width:280px;
+	min-height:5px;
+	margin:4px 0px 4px 0px;
+	padding:0px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+#con-abajo{
+	clear:both;
+	margin:0px auto 0px auto;
+	padding:0px 0px 0px 0px;
+	background-image:url(img/abajo-contenido2.png);
+	width:960px;
+	height:36px;	
+}
+
+
+#container{
+
+
+
+	clear:both;
+
+
+
+	width:960px;
+
+
+
+	margin:0px auto 0px auto;
+
+
+
+	padding:0px 0px 10px 0px;
+
+
+
+	background-color:#ffffff;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.................... PARA BUSCADOR    ...................................*/
+.cuadro-buscador-menu{
+	clear:both;
+	width:auto;
+	height:45px;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+
+
+
+#divBuscador{
+	width:224px;
+	height:31px;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	background-image:url(img/imgbuscador.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+
+#buscar1{
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+
+.cerca { 
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 10px;
+	font-size:14px;
+	font-family: verdana, helvetica, sans-serif;
+	font-style:italic;	
+	border-style:none;
+	color:#000000;
+	text-align:left;
+	width:172px;
+	height:31px;
+	float:left;
+	background:none;	
+}
+
+.cerca value{
+	color:#666666;
+	font-style:italic;
+} 
+
+.buttonsearch { 
+	background:none;
+	width:38px;
+	height:31px;
+	border-style:none;
+	margin:0px 0px 0px 2px;
+	padding:0px 0px 0px 0px;
+	float:right;
+	color:#ffffff;
+	font-weight:bold;
+}
+
+
+.buttonsearch:hover {
+	text-decoration:underline;
+}
+
+
+/*...CONTENIDO HOME  .....*/
+
+#contenido{
+
+
+
+	width:372px;
+
+
+
+	float:left;
+
+
+
+	margin:0px 0px 0px 10px;
+
+
+
+	padding:6px 0px 0px 0px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.... INICIA EL VERDADERO PIE ............*/
+
+
+
+
+
+
+
+#pre_todo{
+
+
+
+	clear:both;
+
+
+
+	width:100%;
+
+
+
+	height:96px;
+
+
+
+	background-color:#e9e9e9;
+
+
+
+/*	background-image:url(img/repetir-pie.jpg);
+
+
+
+	background-repeat:repeat-x;*/
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#div-pie{
+
+
+
+	clear:both;
+
+
+
+	width:960px;
+
+
+
+	height:96px;
+
+
+
+	background-image:url(img/img-pie.jpg);
+
+
+
+	background-repeat:no-repeat;
+
+
+
+	margin:0px auto 0px auto;
+
+
+
+	padding:6px 0px 0px 0px;
+
+
+
+}
+
+
+
+
+
+
+
+#div-red{
+
+
+
+	float:left;
+
+
+
+	width:650px;
+
+
+
+	height:96px;
+
+
+
+	margin:0px 0px 0px 23px;
+
+
+
+	padding:0px 0px 0px 0px;
+
+
+
+}
+
+
+
+
+
+
+
+#div-red h1{
+
+
+
+	float:left;
+
+
+
+	color:#333333;
+
+
+
+	font-size:19px;	
+
+
+
+	margin:0px 20px 0px 0px;
+
+
+
+	padding:0px 0px 0px 0px;
+
+
+
+}
+
+
+
+
+
+
+
+#div-red #red1{
+
+
+
+	float:left;
+
+
+
+	margin:0px 20px 0px 0px;
+
+
+
+	padding:0px 0px 0px 0px;
+
+
+
+	display:block;	
+
+
+
+}
+
+
+
+
+
+
+
+#div-red #red2{
+
+
+
+	float:left;	
+
+
+
+	margin:0px 20px 0px 0px;
+
+
+
+	padding:0px 0px 0px 0px;
+
+
+
+	display:block;
+
+
+
+}
+
+
+
+
+
+
+
+#div-reserva{
+
+
+
+	float:right;
+
+
+
+	width:251px;
+
+
+
+	height:96px;
+
+
+
+	margin:0px 0px 0px 0px;
+
+
+
+	padding:0px 0px 0px 10px;	
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#div-reserva p{
+
+
+
+	clear:both;
+
+
+
+	color:#333333;
+
+
+
+	font-size:11px;
+
+
+
+	margin:0px 0px 0px 0px;
+
+
+
+	padding:4px 0px 4px 0px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#div-reserva p a{
+
+
+
+	color:#333333;
+
+
+
+	font-size:12px;
+
+
+
+	text-decoration:none;
+
+
+
+	font-weight:bold;
+
+
+
+}
+
+
+
+
+
+
+
+#div-reserva p a:hover{
+
+
+
+	color:#336699;
+
+
+
+	font-size:12px;
+
+
+
+	text-decoration:underline;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#marca{
+
+
+
+	display:block;	
+
+
+
+	width:280px;
+
+
+
+	height:140px;
+
+
+
+	padding-top:10px;
+
+
+
+	float:left;
+
+
+
+}
+
+
+
+
+
+
+
+#redes_sociales{
+
+
+
+	width:275px;
+
+
+
+	height:124px;
+
+
+
+	clear:both;
+
+
+
+	background-image:url(img/fondo-newsletter.jpg);
+
+
+
+	background-repeat:no-repeat;
+
+
+
+	margin:0px 0px 0px 0px;
+
+
+
+	padding:13px 0px 0px 0px;
+
+
+
+}
+
+
+
+
+
+
+
+#marca p{
+
+
+
+	color:#ffffff;
+
+
+
+	font-size:12px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#home-suscribirse h1{
+
+
+
+	clear:both;
+
+
+
+	font-size:17px;
+
+
+
+	font:Arial, Helvetica, sans-serif;
+
+
+
+	font-weight:bold;
+
+
+
+	margin:0px 0px 0px 0px;
+
+
+
+	padding:0px 0px 0px 0px;
+
+
+
+	text-align:center;
+
+
+
+	color:#ffffff;
+
+
+
+}
+
+
+
+
+
+
+
+#home-suscribirse h2{
+
+
+
+	clear:both;	
+
+
+
+	font-size:14px;
+
+
+
+	font:Arial, Helvetica, sans-serif;
+
+
+
+	color:#99ccff;
+
+
+
+	margin:0px 0px 0px 13px;
+
+
+
+	padding:0px 10px 0px 10px;
+
+
+
+	text-align:center;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#home-suscribirse form{
+
+
+
+	display:block;
+
+
+
+	margin:10px 0px 0px 0px;
+
+
+
+	padding:0px 0px 0px 0px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#home-suscribirse form table{
+
+
+
+	margin:0px 0px 0px 17px;
+
+
+
+	padding:0px 0px 0px 0px;
+
+
+
+	background:none;
+
+
+
+	width:240px;
+
+
+
+	height:34px;
+
+
+
+	display:block;
+
+
+
+	background-image:url(img/img-enviar-boletin.png);
+
+
+
+	background-repeat:no-repeat;
+
+
+
+}
+
+
+
+
+
+
+
+#home-suscribirse form table tr{
+
+
+
+	margin:0px 0px 0px 0px;
+
+
+
+	padding:0px 0px 0px 0px;
+
+
+
+	float:left;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#home-suscribirse form .cvm-link{
+
+
+
+	color:#333333;
+
+
+
+	font-family:Arial, Helvetica, sans-serif;
+
+
+
+}
+
+
+
+
+
+
+
+.style1{
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.style2{	
+
+
+
+	width:168px;
+
+
+
+	height:34px;
+
+
+
+	margin:0px 0px 0px 0px;
+
+
+
+	padding:0px 0px 0px 5px;
+
+
+
+	border:none;
+
+
+
+	color:#666666;
+
+
+
+	font-style:italic;
+
+
+
+	font-family:Arial, Helvetica, sans-serif;
+
+
+
+	font-size:13px;
+
+
+
+	float:left;
+
+
+
+	background:none;	
+
+
+
+}
+
+
+
+
+
+
+
+#home-suscribirse form #btn_home{
+
+
+
+	color:#ffffff;
+
+
+
+	width:61px;
+
+
+
+	height:34px;
+
+
+
+	display:block;
+
+
+
+	margin:0px 0px 0px 6px;
+
+
+
+	padding:0px 0px 0px 0px;
+
+
+
+	border:none;
+
+
+
+	font-family:Arial, Helvetica, sans-serif;
+
+
+
+	font-style:italic;
+
+
+
+	font-size:14px;
+
+
+
+	font-weight:bold;
+
+
+
+	float:right;
+
+
+
+	background:none;
+
+
+
+}
+
+
+
+
+
+
+
+#home-suscribirse form #btn_home:hover{
+
+
+
+	color:#ffffff;
+
+
+
+	text-decoration:underline;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*.......................*/
+
+
+
+
+
+
+
+#fin_todo{
+
+
+
+	clear:both;
+
+
+
+	width:100%;
+
+
+
+	height:56px;
+
+
+
+	background-color:#fin_todo;
+
+
+
+}
+
+
+
+
+
+
+
+#cuadroPie1{
+
+
+
+	clear:both;
+
+
+
+/*	width:952px;*/
+
+
+
+	width:930px;
+
+
+
+	height:56px;
+
+
+
+	margin:0px auto 0px auto;
+
+
+
+	padding:10px 0px 10px 0px;
+
+
+
+	text-align:center;
+
+
+
+}
+
+
+
+
+
+
+
+#cuadroPie1 p{
+
+
+
+	clear:both;
+
+
+
+	color:#333333;
+
+
+
+	font-size:12px;
+
+
+
+	margin:0px 0px 0px 0px;
+
+
+
+	padding:4px 0px 4px 0px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#cuadroPie1 p a{
+
+
+
+	color:#333333;
+
+
+
+	font-size:12px;
+
+
+
+	text-decoration:none;
+
+
+
+	font-weight:bold;
+
+
+
+}
+
+
+
+
+
+
+
+#cuadroPie1 p a:hover{
+
+
+
+	color:#336699;
+
+
+
+	font-size:12px;
+
+
+
+	text-decoration:underline;
+
+
+
+}
+
+
+
