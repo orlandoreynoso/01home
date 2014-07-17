@@ -125,6 +125,13 @@ header #logo{
 Transformaciones: de rotacion, de escala, sesgado
 las rotaciones tiene prefijos propietarios
 chorem tiene blink y motor webkit como prefijo propietario
+
+prefijos propietarios
+- flexbox
+- spoiler
+- stylus
+etc
+
 */
 /*	-webkit-transform:rotate(90deg);*/
 	/*-moz-transform:rotate(90deg);
@@ -326,9 +333,17 @@ aside{
 
 	}
 
-	#contenido .item:nth-child(odd){
-/*		background: green;*/
-		margin-right: 2%;
+
+/* 
+even impares    1, 2, 3 etc
+odd pares:
+;
+
+*/
+	#contenido .item:nth-child(even){
+		background: green;
+		margin-left:  2%;
+/*		margin-right: 2%;*/
 
 	}
 }
