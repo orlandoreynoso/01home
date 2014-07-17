@@ -7,11 +7,15 @@
 	block  (Son cajas) en vez de float y vertical iline  -->	
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name = "description" content="<?php  page_description(); ?>" />	
+	<meta name="viewport" content="width=device-width, minimum-sacale=1, maximum-scale=1" />
+	<meta name="viewport" content="width=device-width, minimum-scale = 1, maximum-scale=1" />
+
     <title><?php page_title(' - ', '[WEBSITE_TITLE][SPACER][PAGE_TITLE]'); ?></title> 
 	<script src="js/modernizr.custom.40951.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,800italic,400,700' rel='stylesheet' type='text/css'>		
 	<link rel="stylesheet" href="<?php  echo TEMPLATE_DIR; ?>/css/normalize.css">
     <link rel="stylesheet" href="<?php  echo TEMPLATE_DIR; ?>/css/estilos.css" />
+	<link rel="stylesheet" href="<?php echo TEMPLATE_DIR; ?>/css/menu.css">    
 
 </head>
 <body>
@@ -27,8 +31,14 @@
 			<img src="media/img02.png" alt="Transformando tu Vida" />
 		</figure>
 	</header>
+
+	<!-- nav id="cssmenu">
+	<?php  // show_menu2(1, SM2_ROOT, SM2_ALL, SM2_ALL,SM2_ALL,"\n</li>",'<ul>',false,false,'<ul>'); ?> 
+	</nav -->
+
 	<nav>
-		<ul>
+
+	<ul>
 			<li><a href="#">Inicio</a></li>
 			<li><a href="#">Noticias</a></li>
 			<li><a href="#">Radio Online</a></li>
@@ -39,6 +49,13 @@
 		</ul>
 	</nav>
 
+<aside>
+<video width="320" height="240" controls autoplay>
+  <source src="media/video.mp4" type="video/mp4">
+  <source src="media/video.ogg" type="video/ogg">
+  	<!--  Actualiza tu navegador  -->
+ </video>
+</aside>
 
 
 <section id="contenido">
@@ -64,10 +81,66 @@
 		<a href="#" class="up icon-microfono"></a>
 		882
 		<a href="#" class="down icon-musica"></a>				
-		<a href="#" class="comentario_item icon-audifono">3</a>
-		<a href="#" class="guardar_item icon-compartir"></a>	
+		<a href="#" class="comentario_item icon-audifono"></a>
+		<a href="#" class="guardar_item icon-compartir">3</a>	
 		</div>
 	</article>
+	
+	<article class="item">
+		<figure class="imagen_item">
+			<img src="media/img01.png" />
+			
+		</figure>
+		<h2 class="titulo_item">
+			<a href="#">Nuevas noticias</a>
+		</h2>
+		<div class="autor_item">
+			Por: <a href="#">@orlandoreynoso</a>	
+		</div>
+		<div class="datos_item">
+			<a href="#" class="tag_item">Musica</a>
+			<span class="fecha_item">
+				Hace <strong>5</strong> Minutos
+			</span>
+					
+		</div>
+		<div class="votacion">
+		<a href="#" class="up icon-microfono"></a>
+		882
+		<a href="#" class="down icon-musica"></a>				
+		<a href="#" class="comentario_item icon-audifono"></a>
+		<a href="#" class="guardar_item icon-compartir">3</a>	
+		</div>
+	</article>
+	
+	<article class="item">
+		<figure class="imagen_item">
+			<img src="media/img01.png" />
+			
+		</figure>
+		<h2 class="titulo_item">
+			<a href="#">Nuevas noticias</a>
+		</h2>
+		<div class="autor_item">
+			Por: <a href="#">@orlandoreynoso</a>	
+		</div>
+		<div class="datos_item">
+			<a href="#" class="tag_item">Musica</a>
+			<span class="fecha_item">
+				Hace <strong>5</strong> Minutos
+			</span>
+					
+		</div>
+		<div class="votacion">
+		<a href="#" class="up icon-microfono"></a>
+		882
+		<a href="#" class="down icon-musica"></a>				
+		<a href="#" class="comentario_item icon-audifono"></a>
+		<a href="#" class="guardar_item icon-compartir">3</a>	
+		</div>
+	</article>
+	
+	
 </section>
 
 <!--  
@@ -80,13 +153,13 @@ Etiquetas semánticas
 		<article>
 
 
-			<video id="orsistemas" width="640" height="320" controls>
+			<!-- video id="orsistemas" width="640" height="320" controls>
 
-<!--   h264  === -->		
+
   <source src="video.mp4" type='video/mp4; codecs="avc1.42E01E,mp4a.40.2"'>
   <source src="video.webm" type='video/webm; codecs="vp8,vorbis"'>
 
-			</video>
+			</video -->
 			(Video HTML5)
 		</article>
 <!--  aside no está hecho para ponerlo a lado (=Derecho o izquierda,,, puede ir abajo, abrriba etc.=========== -->			
