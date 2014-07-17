@@ -15,7 +15,8 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,800italic,400,700' rel='stylesheet' type='text/css'>		
 	<link rel="stylesheet" href="<?php  echo TEMPLATE_DIR; ?>/css/normalize.css">
     <link rel="stylesheet" href="<?php  echo TEMPLATE_DIR; ?>/css/estilos.css" />
-	<link rel="stylesheet" href="<?php echo TEMPLATE_DIR; ?>/css/menu.css">  <<script src="<?php echo TEMPLATE_DIR; ?>/js/prefixfree.min.js"></script>  
+	<link rel="stylesheet" href="<?php echo TEMPLATE_DIR; ?>/css/menu.css">  
+	<script src="<?php echo TEMPLATE_DIR; ?>/js/prefixfree.min.js"></script>  
 
 </head>
 <body>
