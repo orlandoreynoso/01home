@@ -312,9 +312,22 @@ aside{
 }
 
 
+.orlando{
+	display: block;
+	height: 100px;
+	background: yellow;
+	text-align: center; /* centrado horizontal */
+	line-height: 100px; /* centro vertical */
+}
+
 /*... Desde minimo 800 px, de abajo de ese tamaño nada...*/
 /* 
 	@media screen and (min-width: 800px){  
+
+
+hasta los 800 ocurre esto.
+todo lo que ocurre abajo de esa resolucion
+	@media screen and (max-width: 800px){  
 
 */
 

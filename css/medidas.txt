@@ -1,0 +1,12 @@
+Medidas para los mediaqueries
+
+320
+480 mediaAlta
+768 ipad
+960 En adelante
+o elastica a todo lo que quieras
+Tambien Depende de nuestro diseño.
+
+
+NOTAS:
+FONGAP ??
