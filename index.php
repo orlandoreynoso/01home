@@ -11,12 +11,12 @@
 	<meta name="viewport" content="width=device-width, minimum-scale = 1, maximum-scale=1" />
 
     <title><?php page_title(' - ', '[WEBSITE_TITLE][SPACER][PAGE_TITLE]'); ?></title> 
-	<script src="js/modernizr.custom.40951.js"></script>
+	<script src="<?php  echo TEMPLATE_DIR; ?>/js/modernizr.custom.40951.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,800italic,400,700' rel='stylesheet' type='text/css'>		
 	<link rel="stylesheet" href="<?php  echo TEMPLATE_DIR; ?>/css/normalize.css">
     <link rel="stylesheet" href="<?php  echo TEMPLATE_DIR; ?>/css/estilos.css" />
 	<link rel="stylesheet" href="<?php echo TEMPLATE_DIR; ?>/css/menu.css">  
-	<script src="<?php echo TEMPLATE_DIR; ?>/js/prefixfree.min.js"></script>  
+	<script src="<?php echo TEMPLATE_DIR; ?>/js/prefixfree.min.js"></script>  	
 
 </head>
 <body>
@@ -45,15 +45,21 @@
 			<li><a href="#">Radio Online</a></li>
 			<li><a href="#">Contacto</a></li>
 			<li id="publicar_nav">
-				<a href="#" class="icon-audifono">Lo que suena ahora</a>
+				<a href="#" class="icon-audifono" id="mostrar-form">Lo que suena ahora</a>
 			</li>			
 		</ul>
 	</nav>
 
+	<form action="" id="formulario" class="formulario">
+		<input type="text" id="titulo" placeholder="Título" required>
+		<input type="url" id="url" placeholder="Link" required>
+		<input type="submit" value="Agregar">
+	</form>
+
 	<a class="orlando" href="http://www.orlandoreynoso.com">@orlandoreynoso</a>
 
 <aside>
-<video width="320" height="240" controls autoplay>
+<video width="320" height="240" controls >
   <source src="media/video.mp4" type="video/mp4">
   <source src="media/video.ogg" type="video/ogg">
   	<!--  Actualiza tu navegador  -->
@@ -177,6 +183,17 @@ Etiquetas semánticas
 		</strong>
 		</p>
 		<p>MetanoiaRadio.com 2014</p>
-	</footer>	
+	</footer>
+
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="<?php echo TEMPLATE_DIR; ?>/js/formulario.js">
+		// alert('Saludos'); 
+		/* 
+		Bloque todo lo que está adelante, hasta que no se le de ok .a boton mostrado.
+		hasta que no se acepte  lo mostrado en este caso el ok.
+		Interrumpe todo lo demas.
+		*/
+	</script>	
 </body>
+
 </html>
